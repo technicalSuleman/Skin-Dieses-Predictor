@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+.signup-container {
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup-left {
+  background-color: #ffffff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.signup-left h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.signup-left p {
+  font-size: 0.95rem;
+  color: #6c757d;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 10px 14px;
+  border: 1px solid #ced4da;
+  transition: 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #198754;
+  box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+}
+
+.invalid-feedback {
+  font-size: 0.8rem;
+}
+
+.btn-success {
+  background-color: #198754;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #146c43;
+}
+
+.separator {
+  text-align: center;
+  margin: 1rem 0;
+  position: relative;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background: #ccc;
+  top: 50%;
+}
+
+.separator::before {
+  left: 0;
+}
+
+.separator::after {
+  right: 0;
+}
+
+.btn-outline-dark {
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.btn-outline-dark img {
+  width: 20px;
+  height: 20px;
+}
+
+.signup-right img {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+}
